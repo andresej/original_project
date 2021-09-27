@@ -1,0 +1,137 @@
+.productos {
+    margin: 10px;
+
+    .productos__titulo {
+        color: $colorPrimario;
+        font-size: 4rem;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .productos__clases {
+        display: flex;
+        justify-content: space-around;
+        margin: 3rem;
+        padding: 2rem;
+
+        p {
+            font-size: 3rem;
+            color: $colorPrimario;
+        }
+    }
+
+    .productos__grids {
+        color: $colorPrimario;
+        font-size: 2rem;
+        display: grid;
+        grid-template-columns: 200px 200px 200px;
+        grid-template-rows: 200px 200px 200px 200px 200px;
+        margin: 75px;
+        gap: 60px;
+        justify-content: center;
+        grid-template-areas:
+
+            "imagen1 imagen2 imagen3"
+
+            "imagen4 imagen5 imagen6"
+
+            "imagen7 imagen8 imagen9"
+
+            "imagen10 imagen11 imagen12"
+
+            "imagen13 imagen14 imagen15";
+
+
+
+        .productosItem1 {
+            grid-area: imagen1; border-radius: 30px 20px 30px 20px;
+            box-shadow: 7px 7px 7px $colorPrimario
+        }
+
+        .productosItem2 {
+            grid-area: imagen2; border-radius: 30px 20px 30px 20px;
+    box-shadow: 7px 7px 7px $colorPrimario 
+        }
+
+        .productosItem3 {
+            grid-area: imagen3; border-radius: 30px 20px 30px 20px;
+    box-shadow: 7px 7px 7px $colorPrimario
+        }
+
+
+
+        .productosItem4 {
+            grid-area: imagen4; border-radius: 30px 20px 30px 20px;
+    box-shadow: 7px 7px 7px $colorPrimario
+        }
+
+        .productosItem5 {
+            grid-area: imagen5; border-radius: 30px 20px 30px 20px;
+    box-shadow: 7px 7px 7px $colorPrimario
+        }
+
+        .productosItem6 {
+            grid-area: imagen6; border-radius: 30px 20px 30px 20px;
+    box-shadow: 7px 7px 7px $colorPrimario
+        }
+
+
+        .productosItem7 {
+            grid-area: imagen7; border-radius: 30px 20px 30px 20px;
+    box-shadow: 7px 7px 7px $colorPrimario
+        }
+
+        .productosItem8 {
+            grid-area: imagen8; border-radius: 30px 20px 30px 20px;
+    box-shadow: 7px 7px 7px $colorPrimario
+        }
+
+        .productosItem9 {
+            grid-area: imagen9; border-radius: 30px 20px 30px 20px;
+    box-shadow: 7px 7px 7px $colorPrimario
+        }
+
+
+
+        .productosItem10 {
+            grid-area: imagen10; border-radius: 30px 20px 30px 20px;
+    box-shadow: 7px 7px 7px $colorPrimario
+        }
+
+        .productosItem11 {
+            grid-area: imagen11; border-radius: 30px 20px 30px 20px;
+    box-shadow: 7px 7px 7px $colorPrimario
+        }
+
+        .productosItem12 {
+            grid-area: imagen12; border-radius: 30px 20px 30px 20px;
+    box-shadow: 7px 7px 7px $colorPrimario
+        }
+
+
+        .productosItem13 {
+            grid-area: imagen13; border-radius: 30px 20px 30px 20px;
+    box-shadow: 7px 7px 7px $colorPrimario
+        }
+
+        .productosItem14 {
+            grid-area: imagen14; border-radius: 30px 20px 30px 20px;
+            box-shadow: 7px 7px 7px $colorPrimario
+        }
+
+        .productosItem15 {
+            grid-area: imagen15; border-radius: 30px 20px 30px 20px;
+    box-shadow: 7px 7px 7px $colorPrimario
+        }
+    }
+}
+
+
+@media (max-width: 600px) {
+    .productos .productos__clases p {
+        font-size: 2rem;
+        align-content: center;
+    }
+    
+}
+

@@ -1,0 +1,35 @@
+
+.bodyTendencia {
+    background-color: $colorSecundario;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.navegacionTendencia {
+    margin: 0;
+    padding: 0;
+}
+
+.carousel {
+    margin: 50px auto;
+}
+.carousel-item {
+    height: 550px;
+}
+
+
+.carousel-caption h5 {
+    color: $colorPrimario;
+    font-size: 3rem;
+}
+
+.carousel-caption p {
+    color: white;
+    font-size: 2rem;
+}
+
+.tituloTendencia {
+    font-size: 4rem;
+    margin: 40px 20px 20px 50px;
+    color: $colorPrimario;
+    text-align: center;
+}
