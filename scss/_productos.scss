@@ -1,3 +1,10 @@
+.bodyProductos{background-color: $colorSecundario;
+    font-family: 'Bebas Neue', cursive;}
+
+.navegacionProductos{margin: 0;
+    padding: 0;}
+
+
 .productos {
     margin: 10px;
 
@@ -9,8 +16,6 @@
     }
 
     .productos__clases {
-        display: flex;
-        justify-content: space-around;
         margin: 3rem;
         padding: 2rem;
 
