@@ -60,6 +60,12 @@
             padding: 5px;
             border-radius: 15px;
         }
+
+        .destacados__imgcontainer__img:hover {
+            cursor: pointer;
+            transform: translateY(3px);
+            transition: all cubic-bezier(0.215, 0.61, 0.355, 1) 0.5s;
+        }
     }
 }
 
