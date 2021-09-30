@@ -1,8 +1,18 @@
-.bodyProductos{background-color: $colorSecundario;
-    font-family: 'Bebas Neue', cursive;}
+.bodyProductos {
+    background-color: $colorSecundario;
+    font-family: 'Bebas Neue', cursive;
+}
 
-.navegacionProductos{margin: 0;
-    padding: 0;}
+.navegacionProductos {
+    margin: 0;
+    padding: 0;
+}
+
+nav{font-size: 2rem;
+
+}.productTitles{display: flex;
+justify-content: space-between;
+border-bottom: 0;}
 
 
 .productos {
@@ -24,8 +34,9 @@
             color: $colorPrimario;
         }
     }
+}
 
-    .productos__grids {
+/* .productos__grids {
         color: $colorPrimario;
         font-size: 2rem;
         display: grid;
@@ -128,8 +139,8 @@
             grid-area: imagen15; border-radius: 30px 20px 30px 20px;
     box-shadow: 7px 7px 7px $colorPrimario
         }
-    }
-}
+    }*/
+
 
 
 @media (max-width: 600px) {
@@ -137,6 +148,5 @@
         font-size: 2rem;
         align-content: center;
     }
-    
-}
 
+}
