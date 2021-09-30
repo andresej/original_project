@@ -1,4 +1,3 @@
-
 .contact {
     margin: 30px;
 
@@ -12,26 +11,39 @@
     }
 }
 
+.contenedord {
+    display: flex;
+    justify-content: center;
+
+
+    .contenedord_datos {
+        background-color: $colorPrimario;
+        padding: 30px;
+        margin: 30px 30px auto 100px;
+        border-radius: 4px;
+        font-family: "Bebas Neue";
+        color: $colorSecundario;
+        box-shadow: 7px 13px 7px $colorSecundario;
+        font-size: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
 
 .formulario {
     background-color: $colorPrimario;
     width: 400px;
     padding: 30px;
-    margin: auto;
-    margin-top: 100px;
+    margin: 30px 30px 30px 0;
     margin-bottom: 100px;
     border-radius: 4px;
     font-family: "Bebas Neue";
     color: $colorSecundario;
     box-shadow: 7px 13px 7px $colorSecundario;
 
-    .formulario__titulo {
-        font-size: 24px;
-        margin-top: 15px;
-        margin-bottom: 10px;
-        text-align: center;
-        text-transform: uppercase;
-    }
+
 
     .formulario__input {
         width: 100%;
@@ -51,7 +63,7 @@
         border-radius: 4px;
         color: $colorPrimario;
         text-transform: uppercase;
-        background:$colorSecundario;
+        background: $colorSecundario;
         font-family: "Bebas Neue";
         background: linear-gradient(to left top, $colorSecundario, white);
         font-size: 20px;
