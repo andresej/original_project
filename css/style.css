@@ -89,7 +89,7 @@ html {
   font-size: 3rem;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   #inicio {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
