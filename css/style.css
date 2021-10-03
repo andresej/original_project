@@ -355,32 +355,38 @@ footer ul li a {
   }
 }
 
-.bodyTendencia {
-  background-color: #b4a284;
-  font-family: 'Bebas Neue', cursive;
-}
-
-.navegacionTendencia {
-  margin: 0;
-  padding: 0;
-}
-
-.carousel {
-  margin: 50px auto;
-}
-
-.carousel-item {
-  height: 550px;
-}
-
-.carousel-caption h5 {
+.tendencias {
   color: #f6ead4;
-  font-size: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 50px;
 }
 
-.carousel-caption p {
-  color: white;
+.tendencias .tendencias__titulo {
+  font-size: 3rem;
+  margin: 20px;
+}
+
+.tendencias .tendencias__imgcontainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 20px;
+}
+
+.tendencias .tendencias__imgcontainer .tendencias__imgcontainer__descripcion {
   font-size: 2rem;
+  margin: 100px;
+  width: 250px;
+  font-family: "Patrick Hand";
 }
 
 .tituloTendencia {
@@ -431,7 +437,7 @@ footer ul li a {
   -ms-grid-rows: 200px 200px;
       grid-template-rows: 200px 200px;
   gap: 90px;
-  margin: 40px 50px 0 50px;
+  margin: 30px 50px 0 50px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;

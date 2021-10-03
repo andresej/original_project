@@ -1,30 +1,27 @@
 
-.bodyTendencia {
-    background-color: $colorSecundario;
-    font-family: 'Bebas Neue', cursive;
-}
-
-.navegacionTendencia {
-    margin: 0;
-    padding: 0;
-}
-
-.carousel {
-    margin: 50px auto;
-}
-.carousel-item {
-    height: 550px;
-}
-
-
-.carousel-caption h5 {
+.tendencias {
     color: $colorPrimario;
-    font-size: 3rem;
-}
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
 
-.carousel-caption p {
-    color: white;
-    font-size: 2rem;
+    .tendencias__titulo {
+        font-size: 3rem;
+        margin: 20px;
+    }
+
+    .tendencias__imgcontainer {
+        display: flex;
+        margin: 20px;
+
+        .tendencias__imgcontainer__descripcion {
+            font-size: 2rem;
+            margin: 100px;
+            width: 250px;
+            font-family: "Patrick Hand";
+        }
+    }
 }
 
 .tituloTendencia {
