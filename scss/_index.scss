@@ -70,7 +70,9 @@
 }
 
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
+
+   
     .presentacion__titulo {
         color: $colorPrimario;
         font-size: 3.5rem;
@@ -91,7 +93,7 @@
     }
 
     .destacados {
-        height: 900px;
+        height: 1000px;
     }
 
     .destacados .destacados__imgcontainer {
@@ -99,7 +101,7 @@
         display: grid;
         grid-template-columns: 200px 200px;
         grid-template-rows: 200px 200px 200px;
-        gap: 50px;
+        gap: 100px;
 
     }
 }

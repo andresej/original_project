@@ -7,7 +7,7 @@
     margin: 50px;
 
     .tendencias__titulo {
-        font-size: 3rem;
+        font-size: 4rem;
         margin: 20px;
     }
 
@@ -16,10 +16,11 @@
         margin: 20px;
 
         .tendencias__imgcontainer__descripcion {
-            font-size: 2rem;
+            font-size: 3rem;
             margin: 100px;
             width: 250px;
-            font-family: "Patrick Hand";
+            font-family:  "Bebas Neue", cursive;
+            color: #3d3737;
         }
     }
 }

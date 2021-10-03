@@ -191,7 +191,7 @@ footer ul li a {
   font-size: 1.5rem;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   footer {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -321,7 +321,7 @@ footer ul li a {
   transition: all cubic-bezier(0.215, 0.61, 0.355, 1) 0.5s;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .presentacion__titulo {
     color: #f6ead4;
     font-size: 3.5rem;
@@ -341,7 +341,7 @@ footer ul li a {
     margin: 20px;
   }
   .destacados {
-    height: 900px;
+    height: 1000px;
   }
   .destacados .destacados__imgcontainer {
     height: 900px;
@@ -351,7 +351,7 @@ footer ul li a {
         grid-template-columns: 200px 200px;
     -ms-grid-rows: 200px 200px 200px;
         grid-template-rows: 200px 200px 200px;
-    gap: 50px;
+    gap: 100px;
   }
 }
 
@@ -371,7 +371,7 @@ footer ul li a {
 }
 
 .tendencias .tendencias__titulo {
-  font-size: 3rem;
+  font-size: 4rem;
   margin: 20px;
 }
 
@@ -383,10 +383,11 @@ footer ul li a {
 }
 
 .tendencias .tendencias__imgcontainer .tendencias__imgcontainer__descripcion {
-  font-size: 2rem;
+  font-size: 3rem;
   margin: 100px;
   width: 250px;
-  font-family: "Patrick Hand";
+  font-family: "Bebas Neue", cursive;
+  color: #3d3737;
 }
 
 .tituloTendencia {
@@ -408,7 +409,7 @@ footer ul li a {
 
 .productos {
   margin: 30px;
-  height: 800px;
+  height: 900px;
 }
 
 .productos .productos__titulo {
@@ -432,11 +433,11 @@ footer ul li a {
   height: 250px;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 200px 200px 200px;
-      grid-template-columns: 200px 200px 200px;
-  -ms-grid-rows: 200px 200px;
-      grid-template-rows: 200px 200px;
-  gap: 90px;
+  -ms-grid-columns: 250px 250px 250px;
+      grid-template-columns: 250px 250px 250px;
+  -ms-grid-rows: 250px 250px;
+      grid-template-rows: 250px 250px;
+  gap: 100px;
   margin: 30px 50px 0 50px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -446,6 +447,14 @@ footer ul li a {
 .products__imgcontainer .products__imgcontainer__img {
   border: 2px solid #f6ead4;
   padding: 5px;
+  border-radius: 15px;
+}
+
+.products__imgcontainer .products_imgcontainer_price {
+  font-size: 2rem;
+  text-align: center;
+  border: 2px solid #f6ead4;
+  padding: 1px;
   border-radius: 15px;
 }
 
@@ -480,11 +489,19 @@ footer ul li a {
   transform: translate(-50%, -50%);
 }
 
-@media (max-width: 600px) {
-  .productos .productos__clases p {
-    font-size: 2rem;
-    -ms-flex-line-pack: center;
-        align-content: center;
+@media (max-width: 768px) {
+  .productos {
+    height: 130rem;
+  }
+  .products__imgcontainer {
+    height: 250px;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 250px 250px;
+        grid-template-columns: 250px 250px;
+    -ms-grid-rows: 250px 250px 250px;
+        grid-template-rows: 250px 250px 250px;
+    gap: 100px;
   }
 }
 
@@ -623,7 +640,7 @@ footer ul li a {
           box-shadow: 7px 7px 7px #f6ead4;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .sobremi {
     display: -webkit-box;
     display: -ms-flexbox;

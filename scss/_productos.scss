@@ -11,7 +11,7 @@
 
 .productos {
     margin: 30px;
-    height: 800px;
+    height: 900px;
 
     .productos__titulo {
         color: $colorPrimario;
@@ -25,7 +25,8 @@
 .productsStyle {
     margin: 40px;
     color: $colorPrimario;
-     button {
+
+    button {
         color: $colorPrimario;
         font-size: 2.5rem;
     }
@@ -35,9 +36,9 @@
 .products__imgcontainer {
     height: 250px;
     display: grid;
-    grid-template-columns: 200px 200px 200px;
-    grid-template-rows: 200px 200px;
-    gap: 90px;
+    grid-template-columns: 250px 250px 250px;
+    grid-template-rows: 250px 250px;
+    gap: 100px;
     margin: 30px 50px 0 50px;
     justify-content: center;
 
@@ -46,7 +47,15 @@
         padding: 5px;
         border-radius: 15px;
     }
-    
+
+    .products_imgcontainer_price {
+        font-size: 2rem;
+        text-align: center;
+        border: 2px solid $colorPrimario;
+        padding: 1px;
+        border-radius: 15px
+    }
+
 }
 
 .container_one {
@@ -87,10 +96,17 @@
 }
 
 
-@media (max-width: 600px) {
-    .productos .productos__clases p {
-        font-size: 2rem;
-        align-content: center;
+@media (max-width: 768px) {
+    .productos {
+        height: 130rem;
+    }
+
+    .products__imgcontainer {
+        height: 250px;
+        display: grid;
+        grid-template-columns: 250px 250px;
+        grid-template-rows: 250px 250px 250px;
+        gap: 100px;
     }
 
 }
